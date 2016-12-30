@@ -9,3 +9,8 @@ http.createServer(function(req, res) {
 		res.end();
 	});
 }).listen(8080);
+
+/*
+ * Para ver el detalle del serivcio usar en la linea de comandos lo sgte:
+ * curl -I localhost:8080
+ */
